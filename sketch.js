@@ -46,7 +46,7 @@ function setup() {
   player.addAnimation("running",player_running);
   player.addAnimation("standing",player_standing);
   player.x=100;
-  player.debug=true;
+  player.debug=false;
   player.setCollider("circle",0,30,30)
 
   obstaclesGroup= new Group();
